@@ -191,7 +191,7 @@ pairs=merge(pairs, RNA_type, all = FALSE,by = "name")
 pairs=pairs[,c('miRNA','name','type')]
 colnames(pairs)=c('miRNA','RNA','RNA_type')
 
-e3=paste('/mnt/d/InCOB_ren/',cancer,'_ceRNA_network_Cytoscape.csv',sep='')
+e3=paste('/mnt/d/InCOB_ren/output/',cancer,'_ceRNA_network_Cytoscape.csv',sep='')
 write.csv(pairs,e3,row.names=FALSE)
 
 
