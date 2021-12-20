@@ -7,7 +7,7 @@ library(edgeR)
 library(limma)
 library(tidyverse)
 
-
+#input and output file download address(Additional file 3): http://bclab.inha.ac.kr/LNM/
 
 cancer='COAD'
 # compute MIC between normal and tumor samples
