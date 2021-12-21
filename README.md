@@ -1,2 +1,3 @@
 # LNM
-input and output file download address(Additional file 3): http://bclab.inha.ac.kr/LNM/
+R code for generating miRNA-RNA pairs.
+Due to the size limit of GitHub, input data is available at http://bclab.inha.ac.kr/LNM.
