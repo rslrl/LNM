@@ -7,9 +7,7 @@ library(edgeR)
 library(limma)
 library(tidyverse)
 
-#input and output file download address(Additional file 3): http://bclab.inha.ac.kr/LNM/
-
-cancer='COAD' #cancer: 'BRCA','THCA','STAD', 'LUSC', 'LUAD', 'HNSC','COAD'
+cancer='COAD'
 # compute MIC between normal and tumor samples
 e3=paste('/mnt/d/InCOB_ren/input/',cancer,'_normalized_count.csv',sep='')
 Counts=fread(e3,header=T,check.names=F)
